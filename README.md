@@ -20,12 +20,6 @@ A **full-stack project starter** built with the **MERN stack** (MongoDB, Express
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots here when available._
-
----
-
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -72,23 +66,22 @@ A **full-stack project starter** built with the **MERN stack** (MongoDB, Express
 # Clone the repository
 git clone https://github.com/yourusername/project-management-dashboard.git
 cd project-management-dashboard
-# Server dependencies
+
+# Create a .env file in the root directory:
+NODE_ENV=development
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+
+# Create a .env file in the client directory:
+REACT_APP_API_URL=http://localhost:5000/graphql
+
+# Install dependencies
 npm install
 
 # Client dependencies
 cd client
 npm install
 cd ..
-
-# Create a .env file in the root directory:
-
-NODE_ENV=development
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-
-# Create a .env file in the client directory:
-
-REACT_APP_API_URL=http://localhost:5000/graphql
 
 # Run both server and client
 npm run dev
@@ -148,24 +141,6 @@ mern/
 - deleteProject(id: ID!): Delete a project
 ---
 
-## 🧪 Testing
-
-### Run server tests
-- npm run test:server
-
-### Run client tests
-- npm run test:client
----
-
-## 🚢 Deployment
-
-### Server Deployment
-Deploy the server to any Node.js hosting service (Heroku, DigitalOcean, AWS, etc.).
-
-### Client Deployment
-Deploy the React client to services like Netlify, Vercel, or GitHub Pages.
---- 
-
 ## 🤝 Contributing
 
 - Fork the repository
@@ -180,6 +155,4 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 --- 
 # Made with ❤️ by Daniel Mark
-
-# Feel free to replace placeholder links and “Your Name” with your actual details!
 ---
