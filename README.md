@@ -109,6 +109,7 @@ npm run client
 
 ## 🌐 Project Structure
 
+```bash
 mern/
 ├── client/                 # React frontend
 │   ├── public/             # Static files
@@ -127,7 +128,7 @@ mern/
 │   ├── schema/             # GraphQL schema
 │   └── index.js            # Server entry point
 └── package.json            # Server dependencies
-
+```
 ---
 
 ## 📝 API Documentation
